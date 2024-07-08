@@ -26,6 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the container full height */
+  text-align: center; /* Optional, to center text inside the h1 */
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
